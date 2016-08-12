@@ -10,6 +10,12 @@
 
 Add rubber band effects to scrollable divs.
 
+## Demo
+
+Try the [demo here](http://gabrielbull.github.io/rubber-band-effect/).
+
+![Example](https://rawgit.com/gabrielbull/rubber-band-effect/master/example.gif)
+
 ## Installation
 
 > npm install rubber-band-effect --save
