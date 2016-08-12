@@ -1,3 +1,5 @@
+import { isSafari } from './utils/browserDetection';
+
 const bufferHeight = 1000;
 
 let isOverscrolled = false;
@@ -34,6 +36,7 @@ function handleWheel(event, element, topBuffer, bottomBuffer) {
 
 export default function (element) {
   if (!document || !window) return null;
+  else if (isSafari()) return null;
 
   const topBuffer = document.createElement('div');
   topBuffer.style.height = '0px';

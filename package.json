@@ -1,7 +1,7 @@
 {
   "name": "rubber-band-effect",
   "author": "Gabriel Bull",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add rubber band effects to scrollable divs.",
   "main": "./lib/index.js",
   "keywords": [
